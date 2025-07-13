@@ -1,5 +1,5 @@
 # 🔐 Simple Login & Registration System
-A responsive and minimal web-based authentication system using HTML, CSS, and Vanilla JavaScript, allowing users to register, log in, and access a secured page with their username displayed.<br>
+A responsive and easy-to-use web-based authentication system using HTML, CSS, and Vanilla JavaScript, allowing users to register, log in, and access a secured page with their username displayed.<br>
 # 🌟 Features<br>
 🔄 Toggle between Login and Register with a single button.
 <br>
@@ -37,5 +37,10 @@ A responsive and minimal web-based authentication system using HTML, CSS, and Va
 │<br>
 └── success.html<br>
     ├── Displays a welcome message after successful login<br>
-    ├── Shows the current logged-in username dynamicall<br>y
-    └── Redirects to index.html if accessed without logging in<br>
+    ├── Shows the current logged-in username dynamicall<br>
+    └── Redirects to index.html if accessed without logging in
+
+
+
+
+    
