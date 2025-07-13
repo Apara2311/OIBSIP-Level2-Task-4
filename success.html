@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Success</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #dff0d8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .message {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="message">
+    <h2>✅ Logged in successfully!</h2>
+    <p>Welcome, <span id="usernameDisplay"></span> 👋</p>
+  </div>
+
+  <script>
+    const currentUser = localStorage.getItem("currentUser");
+    if (currentUser) {
+      document.getElementById("usernameDisplay").innerText = currentUser;
+    } else {
+      // If no user found, redirect to login
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
