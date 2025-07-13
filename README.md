@@ -35,7 +35,7 @@ A responsive and easy-to-use web-based authentication system using HTML, CSS, an
 │   ├── Saves the currently logged-in user to localStorage<br>
 │   └── Redirects to success.html on successful login<br>
 │<br>
-└── success.html<br>
+└── **success.html**<br>
     ├── Displays a welcome message after successful login<br>
     ├── Shows the current logged-in username dynamicall<br>
     └── Redirects to index.html if accessed without logging in
